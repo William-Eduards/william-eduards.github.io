@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Proxima Nova";
   src: local("Proxima Nova Regular"), local("Proxima-Nova-Regular"),
-    url("ProximaNova-Regular/ProximaNova-Regular.woff2") format("woff2"),
-    url("ProximaNova-Regular/ProximaNova-Regular.woff") format("woff"),
-    url("ProximaNova-Regular/ProximaNova-Regular.ttf") format("truetype");
+    url("./ProximaNova-Regular/ProximaNova-Regular.woff2") format("woff2"),
+    url("./ProximaNova-Regular/ProximaNova-Regular.woff") format("woff"),
+    url("./ProximaNova-Regular/ProximaNova-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -11,9 +11,9 @@
 @font-face {
   font-family: "Intro";
   src: local("Intro Black"), local("Intro-Black"),
-    url("Intro-Black/Intro-Black.woff2") format("woff2"),
-    url("Intro-Black/Intro-Black.woff") format("woff"),
-    url("Intro-Black/Intro-Black.ttf") format("truetype");
+    url("./Intro-Black/Intro-Black.woff2") format("woff2"),
+    url("./Intro-Black/Intro-Black.woff") format("woff"),
+    url("./Intro-Black/Intro-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -21,9 +21,9 @@
 @font-face {
   font-family: "Intro";
   src: local("Intro Black Italic"), local("Intro-Black-Italic"),
-    url("Intro-Black-Italic/Intro-Black-Italic.woff2") format("woff2"),
-    url("Intro-Black-Italic/Intro-Black-Italic.woff") format("woff"),
-    url("Intro-Black-Italic/Intro-Black-Italic.ttf") format("truetype");
+    url("./Intro-Black-Italic/Intro-Black-Italic.woff2") format("woff2"),
+    url("./Intro-Black-Italic/Intro-Black-Italic.woff") format("woff"),
+    url("./Intro-Black-Italic/Intro-Black-Italic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
@@ -31,9 +31,9 @@
 @font-face {
   font-family: "Proxima Nova";
   src: local("Proxima Nova Bold"), local("Proxima-Nova-Bold"),
-    url("ProximaNova-Bold/ProximaNova-Bold.woff2") format("woff2"),
-    url("ProximaNova-Bold/ProximaNova-Bold.woff") format("woff"),
-    url("ProximaNova-Bold/ProximaNova-Bold.ttf") format("truetype");
+    url("./ProximaNova-Bold/ProximaNova-Bold.woff2") format("woff2"),
+    url("./ProximaNova-Bold/ProximaNova-Bold.woff") format("woff"),
+    url("./ProximaNova-Bold/ProximaNova-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
