@@ -11,9 +11,9 @@
 @font-face {
   font-family: "Intro";
   src: local("Intro Black"), local("Intro-Black"),
-    url("./Intro-Black/Intro-Black.woff2") format("woff2"),
-    url("./Intro-Black/Intro-Black.woff") format("woff"),
-    url("./Intro-Black/Intro-Black.ttf") format("truetype");
+    url("./IntroBlack/Intro-Black.woff2") format("woff2"),
+    url("./IntroBlack/Intro-Black.woff") format("woff"),
+    url("./IntroBlack/Intro-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
