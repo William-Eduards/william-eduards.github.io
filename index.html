@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <title>Junior Front-end Developer audition test</title>
+  </head>
+  <body>
+    <header>
+      <div class="container_main header__container">
+        <div id="content-menu">
+          <span class="slide">
+            <a href="#" id="openMenu" onclick="openSlideMenu()">
+              <i class="fas fa-bars"></i>
+            </a>
+          </span>
+          <div id="menu-responsive" class="nav-responsive">
+            <a
+              href="#"
+              id="closeMenu"
+              class="nav-responsive__close"
+              onclick="closeSlideMenu()"
+            >
+              <i class="fas fa-times"></i>
+            </a>
+            <a href="#" class="nav-responsive__list-item">
+              <img
+                src="./img/icon_main2.svg"
+                class="nav-responsive__menu-icon-home"
+                alt="loading"
+              />Главная</a
+            >
+            <a href="#" class="nav-responsive__list-item">
+              <img
+                src="./img/icon_kids.svg"
+                class="nav-responsive__menu-icon-home"
+                alt="loading"
+              />Для детской</a
+            >
+            <a href="#" class="nav-responsive__list-item">
+              <img
+                src="./img/icon_bedroom.svg"
+                class="nav-responsive__menu-icon-home"
+                alt="loading"
+              />Для спальни</a
+            >
+            <a href="#" class="nav-responsive__list-item">
+              <img
+                src="./img/icon_kitchen.svg"
+                class="nav-responsive__menu-icon-home"
+                alt="loading"
+              />Для кухни</a
+            >
+            <a href="#" class="nav-responsive__list-item">
+              <img
+                src="./img/icon_contacts.svg"
+                class="nav-responsive__menu-icon-home"
+                alt="loading"
+              />Контакты</a
+            >
+
+            <ul>
+              <li>
+                <a href="#" class="social-items"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-items"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="social-items"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__logo">
+          <div class="header__logo-logo">
+            <img src="./img/LOGO.svg" alt="Logotype" class="logotype" />
+          </div>
+          <div class="header__logo-description">
+            <p class="description">
+              Фабрика фотообоев в киеве<br />
+              изготовление фотообоев
+            </p>
+          </div>
+        </div>
+        <div class="header__feedback">
+          <div class="header__feedback-phone">
+            <a href="tel:0442782100" class="feedback_phone">044 278 21 00</a>
+          </div>
+          <div class="header__feedback-button">
+            <a href="#" class="feedback-button">Обратный звонок</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="slide__switchers">
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="carousel-inner">
+          <div class="main__menu">
+            <div class="container_main">
+              <ul class="main__menu-menu">
+                <li class="main__menu-menu-visual"><a href="#">главная</a></li>
+                <li class="main__menu-menu-visual">
+                  <a href="#">для детской</a>
+                </li>
+                <li class="main__menu-menu-visual">
+                  <a href="#">для спальни</a>
+                </li>
+                <li class="main__menu-menu-visual">
+                  <a href="#">для кухни</a>
+                </li>
+                <li class="main__menu-menu-visual"><a href="#">контакты</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel-item slider_bedroom active">
+            <div class="container_main">
+              <div class="slider__content-wallpapers">
+                <div class="slider__content-wallpapers-type">
+                  <div class="slider__content-wallpapers-type-head">
+                    <h1>фотообои</h1>
+                  </div>
+                  <div class="slider__content-wallpapers-type-bottom">
+                    <div class="slider__content-wallpapers-type-bottom-common">
+                      <div
+                        class="slider__content-wallpapers-type-bottom-common-room"
+                      >
+                        <h2>Для зала</h2>
+                      </div>
+                      <div
+                        class="slider__content-wallpapers-type-bottom-common-area"
+                      >
+                        <div
+                          class="slider__content-wallpapers-type-bottom-common-area-testing"
+                        >
+                          <p>
+                            <span class="ot_span">от</span>
+                            <span class="numbers_span">50</span>$/м<sup>2</sup>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__content-wallpapers-ideas">
+                  более 6000 идей фотообоев<br />для гостиной
+                </div>
+                <div class="slider__content-wallpapers-watchbtn">
+                  <a href="#">смотреть идеи</a>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid slider__content-services">
+              <div class="container_main">
+                <div class="row slider__content-services-row">
+                  <div class="col-sm-3 slider__content-services-print">
+                    <img src="./img/Shape_10.png" alt="Loading image" />
+                    <h3>Печатаем что угодно</h3>
+                    <p>
+                      Все фотообои мы изготавливаем под заказ на собственном
+                      оборудовании. По этому можем напечатать совершенно все,
+                      <br />что вы захотите
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-sizes">
+                    <img src="./img/Shape_11.png" alt="Loading image" />
+                    <h3>Любые размеры</h3>
+                    <p>
+                      Профессиональное оборудование позволяет напечатать
+                      фотообои совершенно любого размера. Можем заклеить как
+                      часть, таки все стену без ограничений.
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-terms">
+                    <img src="./img/Shape_12.png" alt="Loading image" />
+                    <h3>Изготовление за 1 день</h3>
+                    <p>
+                      В среднем, изготовление одних фотообоев среднего размера
+                      занимает не более одного дня!
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-intermediary">
+                    <img src="./img/Shape_13.png" alt="Loading image" />
+                    <h3>Без посредников</h3>
+                    <p>
+                      Мы имеем в наличие все необходимое оборудование для
+                      самостоятельного изготовления фотообоев. А значит вы не
+                      переплачиваете посредникам.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item slider_kitchen">
+            <div class="container_main">
+              <div class="slider__content-wallpapers">
+                <div class="slider__content-wallpapers-type">
+                  <div class="slider__content-wallpapers-type-head">
+                    <h1>фотообои</h1>
+                  </div>
+                  <div class="slider__content-wallpapers-type-bottom">
+                    <div class="slider__content-wallpapers-type-bottom-common">
+                      <div
+                        class="slider__content-wallpapers-type-bottom-common-room"
+                      >
+                        <h2>Для кухни</h2>
+                      </div>
+                      <div
+                        class="slider__content-wallpapers-type-bottom-common-area"
+                      >
+                        <div
+                          class="slider__content-wallpapers-type-bottom-common-area-testing"
+                        >
+                          <p>
+                            <span class="ot_span">от</span>
+                            <span class="numbers_span">45</span>$/м<sup>2</sup>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__content-wallpapers-ideas">
+                  более 6000 идей фотообоев<br />для гостиной
+                </div>
+                <div class="slider__content-wallpapers-watchbtn">
+                  <a href="#">смотреть идеи</a>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid slider__content-services">
+              <div class="container_main">
+                <div class="row slider__content-services-row">
+                  <div class="col-sm-3 slider__content-services-print">
+                    <img src="./img/Shape_10.png" alt="Loading image" />
+                    <h3>Печатаем что угодно</h3>
+                    <p>
+                      Все фотообои мы изготавливаем под заказ на собственном
+                      оборудовании. По этому можем напечатать совершенно все,
+                      <br />что вы захотите
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-sizes">
+                    <img src="./img/Shape_11.png" alt="Loading image" />
+                    <h3>Любые размеры</h3>
+                    <p>
+                      Профессиональное оборудование позволяет напечатать
+                      фотообои совершенно любого размера. Можем заклеить как
+                      часть, таки все стену без ограничений.
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-terms">
+                    <img src="./img/Shape_12.png" alt="Loading image" />
+                    <h3>Изготовление за 1 день</h3>
+                    <p>
+                      В среднем, изготовление одних фотообоев среднего размера
+                      занимает не более одного дня!
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-intermediary">
+                    <img src="./img/Shape_13.png" alt="Loading image" />
+                    <h3>Без посредников</h3>
+                    <p>
+                      Мы имеем в наличие все необходимое оборудование для
+                      самостоятельного изготовления фотообоев. А значит вы не
+                      переплачиваете посредникам.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item slider_living-room">
+            <div class="container_main">
+              <div class="slider__content-wallpapers">
+                <div class="slider__content-wallpapers-type">
+                  <div class="slider__content-wallpapers-type-head">
+                    <h1>фотообои</h1>
+                  </div>
+                  <div class="slider__content-wallpapers-type-bottom">
+                    <div class="slider__content-wallpapers-type-bottom-common">
+                      <div
+                        class="slider__content-wallpapers-type-bottom-common-room"
+                      >
+                        <h2>Для спальни</h2>
+                      </div>
+                      <div
+                        class="slider__content-wallpapers-type-bottom-common-area"
+                      >
+                        <div
+                          class="slider__content-wallpapers-type-bottom-common-area-testing"
+                        >
+                          <p>
+                            <span class="ot_span">от</span>
+                            <span class="numbers_span">60</span>$/м<sup>2</sup>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__content-wallpapers-ideas">
+                  более 6000 идей фотообоев<br />для гостиной
+                </div>
+                <div class="slider__content-wallpapers-watchbtn">
+                  <a href="#">смотреть идеи</a>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid slider__content-services">
+              <div class="container_main">
+                <div class="row slider__content-services-row">
+                  <div class="col-sm-3 slider__content-services-print">
+                    <img src="./img/Shape_10.png" alt="Loading image" />
+                    <h3>Печатаем что угодно</h3>
+                    <p>
+                      Все фотообои мы изготавливаем под заказ на собственном
+                      оборудовании. По этому можем напечатать совершенно все,
+                      <br />что вы захотите
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-sizes">
+                    <img src="./img/Shape_11.png" alt="Loading image" />
+                    <h3>Любые размеры</h3>
+                    <p>
+                      Профессиональное оборудование позволяет напечатать
+                      фотообои совершенно любого размера. Можем заклеить как
+                      часть, таки все стену без ограничений.
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-terms">
+                    <img src="./img/Shape_12.png" alt="Loading image" />
+                    <h3>Изготовление за 1 день</h3>
+                    <p>
+                      В среднем, изготовление одних фотообоев среднего размера
+                      занимает не более одного дня!
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-intermediary">
+                    <img src="./img/Shape_13.png" alt="Loading image" />
+                    <h3>Без посредников</h3>
+                    <p>
+                      Мы имеем в наличие все необходимое оборудование для
+                      самостоятельного изготовления фотообоев. А значит вы не
+                      переплачиваете посредникам.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item slider_living-room-2">
+            <div class="container_main">
+              <div class="slider__content-wallpapers">
+                <div class="slider__content-wallpapers-type">
+                  <div class="slider__content-wallpapers-type-head">
+                    <h1>фотообои</h1>
+                  </div>
+                  <div class="slider__content-wallpapers-type-bottom">
+                    <div class="slider__content-wallpapers-type-bottom-common">
+                      <div
+                        class="slider__content-wallpapers-type-bottom-common-room"
+                      >
+                        <h2>Для зала</h2>
+                      </div>
+                      <div
+                        class="slider__content-wallpapers-type-bottom-common-area"
+                      >
+                        <div
+                          class="slider__content-wallpapers-type-bottom-common-area-testing"
+                        >
+                          <p>
+                            <span class="ot_span">от</span>
+                            <span class="numbers_span">50</span>$/м<sup>2</sup>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__content-wallpapers-ideas">
+                  более 6000 идей фотообоев<br />для гостиной
+                </div>
+                <div class="slider__content-wallpapers-watchbtn">
+                  <a href="#">смотреть идеи</a>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid slider__content-services">
+              <div class="container_main">
+                <div class="row slider__content-services-row">
+                  <div class="col-sm-3 slider__content-services-print">
+                    <img src="./img/Shape_10.png" alt="Loading image" />
+                    <h3>Печатаем что угодно</h3>
+                    <p>
+                      Все фотообои мы изготавливаем под заказ на собственном
+                      оборудовании. По этому можем напечатать совершенно все,
+                      <br />что вы захотите
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-sizes">
+                    <img src="./img/Shape_11.png" alt="Loading image" />
+                    <h3>Любые размеры</h3>
+                    <p>
+                      Профессиональное оборудование позволяет напечатать
+                      фотообои совершенно любого размера. Можем заклеить как
+                      часть, таки все стену без ограничений.
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-terms">
+                    <img src="./img/Shape_12.png" alt="Loading image" />
+                    <h3>Изготовление за 1 день</h3>
+                    <p>
+                      В среднем, изготовление одних фотообоев среднего размера
+                      занимает не более одного дня!
+                    </p>
+                  </div>
+                  <div class="col-sm-3 slider__content-services-intermediary">
+                    <img src="./img/Shape_13.png" alt="Loading image" />
+                    <h3>Без посредников</h3>
+                    <p>
+                      Мы имеем в наличие все необходимое оборудование для
+                      самостоятельного изготовления фотообоев. А значит вы не
+                      переплачиваете посредникам.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="pushbarOverlay" onclick="closeSlideMenu()"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/821a309018.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/custom-js.js"></script>
+  </body>
+</html>
